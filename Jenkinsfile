@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven3'   // Name of Maven installation in Jenkins
+        maven 'M3'   // Name of Maven installation in Jenkins
         jdk 'JDK17'      // Name of JDK installation in Jenkins
     }
 
@@ -49,3 +49,4 @@ pipeline {
         }
     }
 }
+
